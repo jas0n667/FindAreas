@@ -1,4 +1,4 @@
-public class Figure {
+abstract class Figure {
     double dim1;
     double dim2;
 
@@ -7,9 +7,7 @@ public class Figure {
         dim2 = d2;
     }
 
-    double area(){
-        return dim1*dim2;
-    }
+    abstract double area();
 
 
 }

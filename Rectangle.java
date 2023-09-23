@@ -3,8 +3,12 @@ class Rectangle extends Figure{
         super(d1, d2);
     }
 
+    double area(){
+        return dim1*dim2;
+    }
+
     void getArea(){
-        System.out.println("Rectangle's area : " + super.area());
+        System.out.println("Rectangle's area : " + area());
     }
 
 
