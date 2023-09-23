@@ -1,5 +1,5 @@
 class Rectangle extends Figure{
-    Rectangle(int d1, int d2){
+    Rectangle(double d1, double d2){
         super(d1, d2);
     }
 
